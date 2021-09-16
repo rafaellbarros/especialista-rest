@@ -5,7 +5,6 @@ import com.algaworks.algafood.di.modelo.Produto;
 import com.algaworks.algafood.di.notificacao.Notificador;
 import com.algaworks.algafood.di.notificacao.NotificadorEmail;
 import com.algaworks.algafood.di.notificacao.NotificadorSMS;
-import com.algaworks.algafood.di.service.AtivacaoClienteService;
 import com.algaworks.algafood.di.service.EmissaoNotaFiscalService;
 
 import java.math.BigDecimal;
@@ -20,9 +19,9 @@ public class Main {
 
         final Notificador notificadorSMS = new NotificadorSMS();
 
-        final AtivacaoClienteService ativacaoCliente = new AtivacaoClienteService(notificadorSMS);
-        ativacaoCliente.ativar(joao);
-        ativacaoCliente.ativar(maria);
+       //  final AtivacaoClienteService ativacaoCliente = new AtivacaoClienteService(notificadorSMS);
+       //  ativacaoCliente.ativar(joao);
+       //  ativacaoCliente.ativar(maria);
 
         final Notificador notificadorEmail = new NotificadorEmail();
         final EmissaoNotaFiscalService emissaoNotaFiscal = new EmissaoNotaFiscalService(notificadorEmail);
