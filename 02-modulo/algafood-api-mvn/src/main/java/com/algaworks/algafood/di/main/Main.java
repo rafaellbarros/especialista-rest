@@ -23,9 +23,9 @@ public class Main {
        //  ativacaoCliente.ativar(joao);
        //  ativacaoCliente.ativar(maria);
 
-        final Notificador notificadorEmail = new NotificadorEmail();
-        final EmissaoNotaFiscalService emissaoNotaFiscal = new EmissaoNotaFiscalService(notificadorEmail);
-        emissaoNotaFiscal.emitir(joao, ps4);
+        // final Notificador notificadorEmail = new NotificadorEmail();
+        // final EmissaoNotaFiscalService emissaoNotaFiscal = new EmissaoNotaFiscalService(notificadorEmail);
+        // emissaoNotaFiscal.emitir(joao, ps4);
 
 
 
